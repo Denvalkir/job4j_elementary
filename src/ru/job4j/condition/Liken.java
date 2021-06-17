@@ -11,7 +11,7 @@ public class Liken {
         result = first < second;
                 System.out.println(result);
 
-        result = first > second;
+        result = first == second;
                 System.out.println(result);
     }
 }
