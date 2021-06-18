@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class DummyBot {
     public static String answersBot(String text) {
         String answer;
-        
+
         if (text.equals("Привет, Бот.")) {
             answer = "Привет, умник.";
         } else if (text.equals("Пока.")) {
