@@ -30,4 +30,34 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
+
+    @Test
+    public void testMaxWhen2Nums() {
+        int a = 3;
+        int b = 4;
+        int result = Max.max(a, b);
+        int expected = 4;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void testMaxWhen3Nums() {
+        int a = 3;
+        int b = 4;
+        int c = 5;
+        int result = Max.max(a, b, c);
+        int expected = 5;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void testMaxWhen4Nums() {
+        int a = 3;
+        int b = 4;
+        int c = 5;
+        int d = 6;
+        int result = Max.max(a, b, c, d);
+        int expected = 6;
+        Assert.assertEquals(result, expected);
+    }
 }
